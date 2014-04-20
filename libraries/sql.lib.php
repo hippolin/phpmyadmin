@@ -1406,7 +1406,7 @@ function PMA_countQueryResults(
             $unlim_num_rows = PMA_Table::countRecords(
                 $db,
                 $table,
-                true
+                false
             );
 
         } else {
